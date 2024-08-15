@@ -1,13 +1,21 @@
 # Robust-Minisets
-
-## Data ([Zenodo](https://doi.org/10.5072/zenodo.91410)) | Publication ([TBD]()) | Preprint ([arXiv]()) 
-
-We introduce `Robust-Minisets`, a collection of robust benchmark classification datasets in the low resolution realm based on well-established image classification benchmarks, such as CIFAR, Tiny ImageNet, EuroSAT and the MedMNIST collection. We port existing robustness and generalization benchmarks (ImageNet-C, -R, -A and v2) to the small dataset domain introducing novel benchmarks to comprehensively evaluate the robustness and generalization capabilities of image classification models on low resolution datsets. This results in an extensive collection consisting of already existing test sets (e.g. CIFAR-10.1 and Tiny ImageNet-C) as well as the novel benchmarks EuroSAT-C, MedMNIST-C, and Tiny ImageNet-A, -R and -v2 introduced in our paper ["GenFormer - Generated Images are All You Need to Improve Robustness of Transformers on Small Datasets"]().
-
+[![arxiv.org](https://img.shields.io/badge/cs.CV-arXiv%3A0000.0000-B31B1B.svg)](https://arxiv.org/)
+[![cite-bibtex](https://img.shields.io/badge/Cite-BibTeX-1f425f.svg)](#citing)
+[![data](https://img.shields.io/badge/Download-Data-green)](https://doi.org/10.5072/zenodo.91410)
 [![](https://colab.research.google.com/assets/colab-badge.svg)]()
 
-![Robust-Minisets_overview](https://raw.githubusercontent.com/CeMOS-IS/Robust-Minisets/main/assets/montage.png)
+We introduce `Robust-Minisets`, a collection of robust benchmark classification datasets in the low resolution realm based on well-established image classification benchmarks, such as CIFAR, Tiny ImageNet, EuroSAT and the MedMNIST collection. We port existing robustness and generalization benchmarks (ImageNet-C, -R, -A and v2) to the small dataset domain introducing novel benchmarks to comprehensively evaluate the robustness and generalization capabilities of image classification models on low resolution datsets. This results in an extensive collection consisting of already existing test sets (e.g. CIFAR-10.1 and Tiny ImageNet-C) as well as the novel benchmarks EuroSAT-C, MedMNIST-C, and Tiny ImageNet-A, -R and -v2 introduced in our ICPR2024 paper ["GenFormer - Generated Images are All You Need to Improve Robustness of Transformers on Small Datasets"](https://github.com/CeMOS-IS/GenFormer).
 
+
+<div align="left">
+
+  <div align="center">
+    <img  src="assets/montage.png" width="1000"/>
+    <div>&nbsp;</div>
+    
+  </div>
+  <div>&nbsp;</div>
+  
 # Code Structure
 * [`robust_minisets/`](robust_minisets/):
     * [`dataset.py`](robust_minisets/dataset.py): PyTorch datasets and dataloaders of Robust-Minisets.
@@ -139,11 +147,21 @@ The code is under [Apache-2.0 License](./LICENSE).
 
 The publication licenses of the datasets can be found within the info dictionary via `robust_minisets.INFO[<dataset_flag>]`.
 
-# Citation
+## Acknowledgements
+This repository is built using the [timm](https://timm.fast.ai/) library and the [tiny-transformers](https://github.com/lkhl/tiny-transformers) repository.
+
+This research was partly funded by Albert and Anneliese Konanz Foundation, the German Research Foundation under grant INST874/9-1 and the Federal Ministry of Education and Research Germany in the project M2Aind-DeepLearning (13FH8I08IA).
+
+# Citing
 
 If you find this work useful, please consider citing us:
-```
-
+```bibtex
+@inproceedings{oehri2024genformer,
+    title = {GenFormer – Generated Images are All You Need to Improve Robustness of Transformers on Small Datasets},
+    author = {Oehri, Sven and Ebert, Nikolas and Abdullah, Ahmed and Stricker, Didier and Wasenm{\"u}ller, Oliver},
+    booktitle = {International Conference on Pattern Recognition (ICPR)},
+    year = {2024},
+}
 ```
 
 `DISCLAIMER`: Robust-Minisets is based on a wide range of existing datasets and benchmarks. Thus, please also cite source data paper(s) of the Robust-Miniset subset(s):
