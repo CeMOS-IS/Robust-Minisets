@@ -6,6 +6,8 @@
 
 We introduce `Robust-Minisets`, a collection of robust benchmark classification datasets in the low resolution realm based on well-established image classification benchmarks, such as CIFAR, Tiny ImageNet, EuroSAT and the MedMNIST collection. We port existing robustness and generalization benchmarks (ImageNet-C, -R, -A and v2) to the small dataset domain introducing novel benchmarks to comprehensively evaluate the robustness and generalization capabilities of image classification models on low resolution datsets. This results in an extensive collection consisting of already existing test sets (e.g. CIFAR-10.1 and Tiny ImageNet-C) as well as the novel benchmarks EuroSAT-C, MedMNIST-C, and Tiny ImageNet-A, -R and -v2 introduced in our ICPR2024 paper ["GenFormer - Generated Images are All You Need to Improve Robustness of Transformers on Small Datasets"](https://github.com/CeMOS-IS/GenFormer).
 
+[Nikolas Ebert](https://scholar.google.de/citations?user=CfFwm1sAAAAJ&hl=de), Sven Oehri, Ahmed Abdullah, [Didier Stricker](https://scholar.google.de/citations?user=ImhXfxgAAAAJ&hl=de) & [Oliver Wasenmüller](https://scholar.google.de/citations?user=GkHxKY8AAAAJ&hl=de) \
+**[CeMOS - Research and Transfer Center](https://www.cemos.hs-mannheim.de/ "CeMOS - Research and Transfer Center"), [University of Applied Sciences Mannheim](https://www.english.hs-mannheim.de/the-university.html "University of Applied Sciences Mannheim")**
 
 <div align="left">
 
