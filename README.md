@@ -33,12 +33,10 @@ We introduce `Robust-Minisets`, a collection of robust benchmark classification 
 
 Setup the required environments and install `robust-minisets` as a standard Python package from [PyPI](https://pypi.org/project/robust-minisets/):
 
-    pip install -r requirements.txt
     pip install robust-minisets
 
 Or install from source:
 
-    pip install -r requirements.txt
     pip install --upgrade git+https://github.com/CeMOS-IS/Robust-Minisets.git
 
 Check whether you have installed the latest code [version](robust_minisets/info.py#L1):

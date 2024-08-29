@@ -1,6 +1,6 @@
 # Overview and Details of Datasets
 
-Following, we provide a more detailed overview on the dataset collection of `Robust-Minisets`. For further details and statistics on the novel datasets Tiny ImageNet-A, -R and -v2 please refer to our [paper]().
+Following, we provide a more detailed overview on the dataset collection of `Robust-Minisets`. For further details and statistics on the novel datasets Tiny ImageNet-A, -R and -v2 please refer to our [paper](https://arxiv.org/abs/2408.14131).
 
 ### CIFAR-10.1
 `Description:` CIFAR-10.1 (v4) is a new test set for the CIFAR-10 dataset introduced by Recht et al. ("Do CIFAR-10 Classifiers Generalize to CIFAR-10?") with 2,000 images spanning all 10 classes of the original CIFAR-10 dataset. CIFAR-10.1 consists of images sampled from the TinyImages dataset based on keyword search and count. For further information visit the original GitHub repository of [CIFAR-10.1](https://github.com/modestyachts/CIFAR-10.1).
@@ -44,7 +44,7 @@ Following, we provide a more detailed overview on the dataset collection of `Rob
 `License:` Creative Commons Attribution 4.0 International
 
 ### EuroSAT
-`Description:` EuroSAT is a dataset and deep learning benchmark for land use and land cover classification. The dataset is based on Sentinel-2 satellite images consisting of 10 classes with in total 27,000 labeled samples. For the train/val/test split we follow Neumann et al. ("In-Domain Representation Learning for Remote Sensing", Google Research). For further information visit the original GitHub repository of [EuroSAT](https://github.com/phelber/EuroSAT).
+`Description:` EuroSAT is a dataset and deep learning benchmark for land use and land cover classification. The dataset is based on Sentinel-2 satellite images consisting of 10 classes with in total 27,000 labeled samples. For the train/val/test split we follow Neumann et al. (["In-Domain Representation Learning for Remote Sensing"](https://github.com/google-research/google-research/tree/master/remote_sensing_representations), Google Research). For further information visit the original GitHub repository of [EuroSAT](https://github.com/phelber/EuroSAT).
 
 `Number of Classes:` 10
 
